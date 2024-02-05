@@ -35,9 +35,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
-p{
-  color: black !important;
-}
+
 /* clear fix */
 .grid:after {
   content: '';
@@ -99,7 +97,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #000;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -122,7 +120,8 @@ p {
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
-  color: #afafaf;
+  /* color: #000; */
+  color: #fff;
 }
 
 img {
@@ -140,7 +139,8 @@ root{
 }
 html,
 body {
-  background: #fff;
+  background: #000;
+  color:#fff ;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -188,7 +188,8 @@ body {
 }
 
 .section-heading h4 {
-  color: #2a2a2a;
+  /* color: #2a2a2a; */
+  color: white;
   font-size: 35px;
   font-weight: 700;
   text-transform: capitalize;
@@ -324,7 +325,9 @@ header
 }
 
 .header-area {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #000;
+
   box-shadow: 0px 5px 8px rgba(0,0,0,0.03);
   position: absolute;
   left: 0px;
@@ -405,7 +408,9 @@ header
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #2a2a2a;
+  /* color: #2a2a2a; */
+  color: #fff;
+
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -619,6 +624,7 @@ header
 
 .header-area.header-sticky {
   min-height: 80px;
+  background-color:#000 !important;
 }
 
 .header-area .nav {
@@ -672,7 +678,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #fff;
+    background-color: #000;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -935,7 +941,8 @@ Banner Style
   position: relative;
   font-weight: 700;
   font-size: 50px;
-  color: #2a2a2a;
+  /* color: #2a2a2a; */
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -1225,7 +1232,7 @@ Services Style
 
 .services:after {
   content: '';
-  background-image: url(../images/services-left-dec.jpg);
+  /* background-image: url(../images/services-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1237,7 +1244,7 @@ Services Style
 
 .services:before {
   content: '';
-  background-image: url(../images/services-right-dec.jpg);
+  /* background-image: url(../images/services-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1302,10 +1309,14 @@ Services Style
 .services .naccs .menu div .thumb {
   display: inline-block;
   min-width: 200px;
+  margin-bottom: 15px;
   width: 100%;
   height: auto;
   padding: 30px 5px;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #191a20;
+  color: #fff ;
+
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -1338,7 +1349,9 @@ Services Style
   opacity: 1;
   transform: translateX(0px);
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #191a20;
+  /* border: 1px solid #fff; */
   border-radius: 15px;
   padding: 80px 120px 50px 120px;
 }
@@ -1412,7 +1425,7 @@ Portfolio
 
 .our-portfolio:before {
   content: '';
-  background-image: url(../images/portfolio-right-dec.jpg);
+  /* background-image: url(../images/portfolio-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1424,7 +1437,7 @@ Portfolio
 
 .our-portfolio:after {
   content: '';
-  background-image: url(../images/portfolio-left-dec.jpg);
+  /* background-image: url(../images/portfolio-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1473,7 +1486,9 @@ Portfolio
 }
 
 .portfolio-item .down-content {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color:#191a20;
+
   text-align: center;
   padding: 18px 0px;
   border-bottom-right-radius: 23px;
@@ -1483,7 +1498,7 @@ Portfolio
 .portfolio-item .down-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #fff;
   margin-bottom: 8px;
   transition: all .3s;
 }
@@ -1513,7 +1528,9 @@ Portfolio
   text-align: center;
   line-height: 46px;
   font-size: 30px;
-  background-color: #eee;
+  /* background-color: #eee; */
+  background-color: #191a20;
+
   border-radius: 50%;
   color: #fff;
   transition: all 0.5s;
@@ -1579,7 +1596,7 @@ form#contact:after {
 form#contact {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   position: relative;
-  background-color: #fff;
+  background-color: #191a20;
   border-radius: 23px;
   text-align: center;
 }
@@ -1618,7 +1635,8 @@ form#contact #map iframe {
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
-  color: #2a2a2a;
+  /* color: #2a2a2a; */
+  color:#fff;
   transition: all .3s;
 }
 
@@ -1668,7 +1686,7 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #fff;
+  background-color: transparent;
   font-size: 15px;
   font-weight: 400;
   color: #0dc422fd;
