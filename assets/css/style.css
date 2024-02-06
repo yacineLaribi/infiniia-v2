@@ -1777,6 +1777,9 @@ responsive
     text-align: center;
     padding: 226px 0px 30px 0px;
   }
+  .main-banner p{
+    width:90vw;
+  }
   .main-banner:before {
     display: none;
   }
