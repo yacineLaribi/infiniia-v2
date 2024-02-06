@@ -1298,6 +1298,7 @@ Services Style
   margin-bottom: 30px;
 }
 
+
 .services .naccs .menu div {
   color: #2a2a2a;
   margin: 0px;
@@ -1797,9 +1798,16 @@ responsive
     margin-right: 0px;
     margin-bottom: 45px;;
   }
+  .services .naccs .menu{
+    flex-direction: column;
+    gap: 1px;
+  }
   .services .naccs .menu div {
     font-size: 15px;
     font-weight: 500;
+  }
+  .services .naccs .menu div .thumb{
+    width: 80vw;
   }
   .service-item {
     text-align: center;
@@ -1864,7 +1872,7 @@ responsive
     padding: 45px;
   }
   .services .naccs .menu div  {
-    font-size: 0px;
+    font-size: 15px;
   }
   .services ul.nacc li .right-image img {
     float: none;
